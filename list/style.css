@@ -1,0 +1,21 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.list{
+
+    width: 170px;
+}
+.list-elem{
+    border-top: 1px solid gray;
+    font-size: 11px;
+    padding: 10px 0 10px 10px;
+}
+.list-elem:hover{
+    background-color: gainsboro;
+    transition: .5s;
+}
+.list-elem:first-child{
+    border-top: none;
+}
